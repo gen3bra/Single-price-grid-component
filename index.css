@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background-color: #e5eff5;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  body .main {
+    width: 225px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.1); }
+    body .main .text {
+      border-top-left-radius: 2%;
+      border-top-right-radius: 2%;
+      background-color: white;
+      padding: 1em;
+      padding-bottom: 20px; }
+      body .main .text h1 {
+        color: #2ab2af;
+        font-size: 16px; }
+      body .main .text h2 {
+        color: #c0df34;
+        font-size: 12px;
+        margin-top: 18px; }
+      body .main .text p {
+        font-size: 9px;
+        margin-top: 14px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        word-spacing: -1px;
+        color: #98a6bd; }
+    body .main .price {
+      background-color: #2ab2af;
+      color: white;
+      padding: 1em; }
+      body .main .price h3 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: normal; }
+      body .main .price .paragraph {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        font-family: 'Karla', sans-serif; }
+        body .main .price .paragraph .one {
+          margin-top: 14px;
+          font-size: 24px; }
+        body .main .price .paragraph .per {
+          font-size: 12px;
+          margin-left: 12px;
+          margin-top: 20px;
+          opacity: 0.5; }
+      body .main .price .second {
+        font-size: 11px;
+        opacity: 0.8;
+        font-family: 'Karla', sans-serif;
+        margin-top: 3px; }
+      body .main .price button {
+        background-color: #c0df34;
+        color: white;
+        width: 190px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 21px;
+        font-size: 11px; }
+      body .main .price button:hover {
+        -webkit-transform: scale(0.9);
+                transform: scale(0.9); }
+    body .main .end {
+      background-color: #3dbbbd;
+      color: white;
+      padding: 1em 1em 1px 1em;
+      font-family: 'Karla', sans-serif;
+      border-bottom-left-radius: 2%;
+      border-bottom-right-radius: 2%; }
+      body .main .end h3 {
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 12px; }
+      body .main .end p {
+        font-size: 10px;
+        opacity: 0.6;
+        line-height: 13px; }
+
+@media screen and (min-width: 768px) {
+  body .main {
+    width: 490px; }
+    body .main .text {
+      height: 165px;
+      padding: 2em; }
+      body .main .text h1 {
+        font-size: 18px; }
+      body .main .text h2 {
+        font-size: 14px; }
+      body .main .text p {
+        font-size: 11px;
+        margin-top: 5px; }
+    body .main .bigger {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      body .main .bigger .price {
+        width: 50%;
+        padding: 2em 2em 5px 2em;
+        border-bottom-left-radius: 2%; }
+      body .main .bigger .end {
+        width: 50%;
+        padding: 2em 2em 5px 2em;
+        border-bottom-left-radius: 0%; }
+        body .main .bigger .end p {
+          font-size: 11px;
+          line-height: 15px; } }
+
+/*# sourceMappingURL=index.css.map */

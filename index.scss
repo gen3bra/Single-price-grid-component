@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main{
+
+      width: 225px;
+      box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10) ;
+    
+        .text{
+            border-top-left-radius: 2%;
+            border-top-right-radius: 2%;
+            background-color: white;
+            padding: 1em;
+            padding-bottom: 20px;
+    
+            h1{
+                color: hsl(179, 62%, 43%);
+                font-size: 16px;
+            }
+            h2{
+                color: hsl(71, 73%, 54%);
+                font-size: 12px;
+                margin-top: 18px;
+            }
+
+            p{
+                font-size: 9px;
+                margin-top: 14px;
+                letter-spacing: 1px;
+                line-height: 20px;
+                word-spacing: -1px;
+                color: hsl(218, 22%, 67%);
+            }
+            
+        }
+    
+        .price{
+            background-color: hsl(179, 62%, 43%);
+            color: white;
+            padding: 1em;
+           
+
+            h3{
+                font-size: 13px;
+                letter-spacing: 1px;
+                font-weight: normal;
+            }
+
+            .paragraph{
+
+                display: flex;
+                flex-direction: row;
+                font-family: 'Karla', sans-serif;
+
+                .one{
+                    margin-top: 14px;
+                    font-size: 24px;
+                }
+                .per{
+                    font-size: 12px;
+                    margin-left: 12px;
+                    margin-top: 20px;
+                    opacity: 0.5;
+                }
+            }
+
+
+            .second{
+                font-size: 11px;   
+                opacity: 0.8;
+                font-family: 'Karla', sans-serif; 
+                margin-top: 3px;
+            }
+
+            button{
+                background-color: hsl(71, 73%, 54%);
+                color: white;
+                width: 190px;
+                height: 35px;
+                border: none;
+                border-radius: 5px;
+                margin-top: 21px;
+                font-size: 11px;
+            }
+
+            button:hover{
+                transform: scale(0.9);
+            }
+        }
+    
+        .end{
+            background-color: hsl(181, 51%, 49%);
+            color: white;
+            padding: 1em 1em 1px 1em;
+            font-family: 'Karla', sans-serif; 
+            border-bottom-left-radius: 2%;
+            border-bottom-right-radius: 2%;
+
+            h3{
+                font-size: 14px;
+                font-weight: normal;
+                margin-bottom: 12px;
+            }
+
+            p{
+                font-size: 10px;
+                opacity: 0.6;
+                line-height: 13px;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    
+    body{
+
+        .main{
+            width: 490px;
+
+                .text{
+                    height: 165px;
+                    padding: 2em;
+
+                    h1{
+                        font-size: 18px;
+                    }
+
+                    h2{
+                        font-size: 14px;
+                    }
+
+                    p{
+                        font-size: 11px;
+                        margin-top: 5px;
+                    }
+                }
+
+                
+            .bigger{
+                display: flex;
+                flex-direction: row;
+        
+
+                .price{
+                    width: 50%;
+                    padding: 2em 2em 5px 2em;
+                    border-bottom-left-radius: 2%;
+                }
+
+                .end{
+                    width: 50%;
+                    padding: 2em 2em 5px 2em;
+                    border-bottom-left-radius: 0%;
+
+                    p{
+                        font-size: 11px;
+                        line-height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
